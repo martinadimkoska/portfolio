@@ -538,6 +538,18 @@ background: linear-gradient(90deg, rgba(114,84,138,1) 0%, rgba(125,66,228,1) 100
     font-size: 1.6rem;
   }
 
+  .hero .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 80%;
+    padding: 0 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 900;
+  }
+
   .icons i {
     display: inline-block;
     padding: 12px;
