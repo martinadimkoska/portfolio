@@ -382,7 +382,11 @@ nav .logo h3{
   }
 
 
-
+.fas {
+  padding: 10px;
+  text-align: center;
+  color: #FFEA28;
+}
 
 
 
@@ -555,7 +559,7 @@ nav .logo h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #343434;
+    background-color: #1B262C;
     transition: top 1s ease;
     display: none;
     padding: 0;
