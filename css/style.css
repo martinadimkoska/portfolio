@@ -16,7 +16,7 @@
 }
 
 html, body { 
-  background-color: #2F2F2F; 
+  background-color: #1B262C; 
   color: #fff;
   line-height: 1.6;  
   font-family: 'Exo 2', sans-serif;
@@ -94,7 +94,7 @@ nav .logo h3{
 
 /* Header */
 .hero {
-  background-image: url(../img/heroport.png);
+  background-color: #1B262C;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,8 +102,22 @@ nav .logo h3{
   color: #fff;
 }
 
+.hero_pic img {
+  width: 90%;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+}
+
+.hero_txt {
+  text-align: left;
+}
+
 .content h1 {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 900;
   color: #FFEA28; 
   text-align: center;
@@ -112,13 +126,18 @@ nav .logo h3{
 }
 
 .content h2 {
-  font-weight: bold 900;
-  font-size: 35px;
-  color: #Fff;
-  text-align: center;
+  font-size: 45px;
+  color: #193DAD;
+  text-align: left;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bolder;
 }
 
-.hero .content {
+.content h1 span {
+  color: #FFEA28;
+}
+
+/* .hero .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -128,13 +147,11 @@ nav .logo h3{
   padding: 0 20px;
   font-family: 'Exo 2', sans-serif;
   font-weight: 900;
-}
+} */
 
 /* About me */
-
-
 .about-me h1 {
-  font-size: 0px;
+  font-size: 600px;
   font-weight: 900;
   color: #FFEA28; 
   margin-top: 50px;
@@ -154,6 +171,12 @@ nav .logo h3{
   list-style-type: disc;
   margin:0;
   padding: 0;
+  text-align: left;
+  padding: 0 30px;
+}
+
+.education h2 {
+  text-align: left;
 }
 
 .column .columns-2 {
@@ -166,6 +189,7 @@ nav .logo h3{
 
 .columns-1 p {
   font-weight: 100;
+  
 }
 
 .columns-2 p {
@@ -220,27 +244,42 @@ nav .logo h3{
 
 
 /* Projects */
-
-
-
-
 .box {
   cursor: pointer;
-  background-color: #494949;
+  background-color: #193DAD;
   border: #FFFFFF 1px solid;
   border-radius: 10px;
   box-sizing: border-box;
   height: 250px;
   margin-top: 22px;
-
-
+  font-size: 20px;
+  position: relative;
+  z-index: 1;
    
 }
 
-.box:hover {
-  background: rgb(114,84,138);
-background: linear-gradient(90deg, rgba(114,84,138,1) 0%, rgba(125,66,228,1) 100%, rgba(255,255,255,0) 100%);
-  font-size: 25px;
+.box::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  z-index: -1;
+  transition: transform 200ms ease-in;
+
+}
+
+.box::after{
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+.box:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
   
 }
 
@@ -339,7 +378,7 @@ background: linear-gradient(90deg, rgba(114,84,138,1) 0%, rgba(125,66,228,1) 100
   }
 
   .contact-me img {
-    width: 50%;
+    width: 90%;
   }
 
 
@@ -550,14 +589,21 @@ background: linear-gradient(90deg, rgba(114,84,138,1) 0%, rgba(125,66,228,1) 100
     font-family: 'Exo 2', sans-serif;
     font-weight: 900;
   }
+
+  .hero_pic img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
   
   .content h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
   }
 
   .content h2 {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   }
   .icons i {
@@ -609,7 +655,17 @@ background: linear-gradient(90deg, rgba(114,84,138,1) 0%, rgba(125,66,228,1) 100
     padding: 30px 0;
     flex-direction: column;
 }
-   .columns-2 img{
+
+
+  .about-me h1 {
+    font-size: 50px;
+  }
+
+  
+  
+
+
+  .columns-2 img{
      width: 50%;
 
    }
