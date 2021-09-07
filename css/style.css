@@ -204,16 +204,13 @@ nav .logo h3{
   color: #343434;
 }
 
-
-
-/* Services */
-
-.icona {
-  padding:30px;
-  
-
+.bg-dark{
+  background-color: #343434;
+  color: #f5f5f5;
+  clip-path: polygon(0 0, 100% 5%, 99% 100%, 0 95%);
 }
 
+/* Services */
 .discovery {
   text-align: center;
   padding: 20px;
@@ -234,15 +231,15 @@ nav .logo h3{
   margin-top: 30px;
   font-weight: 900;
   font-size: 70px;
-  color: #F05024;
+  color: #Fff;
   text-align:center;
-  text-align: center;
+ 
   
 }
 
 .icons h3 {
   font-weight: 600;
-  color: #343434;
+  color: #fff;
   text-align:center;
   margin: 10px;
 
@@ -252,7 +249,7 @@ nav .logo h3{
 /* Projects */
 .box {
   cursor: pointer;
-  background-color: #F05024;
+  background-color: #343434;
   border: #FFFFFF 1px solid;
   border-radius: 10px;
   box-sizing: border-box;
@@ -271,7 +268,7 @@ nav .logo h3{
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background-color: #F64E20;
   border-radius: 10px;
   z-index: -1;
   transition: transform 200ms ease-in;
@@ -328,12 +325,14 @@ nav .logo h3{
   display: flex;
   flex-direction: row;
   justify-content: left;
+  align-items: center;
 }
 
 .call {
   display: flex;
   flex-direction: row;
   justify-content: left;
+  align-items: center;
 }
 
 .fab {
@@ -583,7 +582,7 @@ nav .logo h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #1B262C;
+    background-color: #343434;
     transition: top 1s ease;
     display: none;
     padding: 0;
@@ -602,7 +601,7 @@ nav .logo h3{
 
   nav .mainMenu li a:hover{
     background: none;
-    color: #FFEA28;
+    color: #F64E20;
     font-size: 1.6rem;
   }
 
@@ -670,13 +669,6 @@ nav .logo h3{
     text-align: center;
     align-items: center;
     
-  }
-
-  .bg-purple {
-    background-color: #7D42E4;
-    color: #fff;
-    clip-path: polygon(0 0, 0% 0%, 0% 0%, 0 0%);
-   
   }
 
   .flex-grid .row {
