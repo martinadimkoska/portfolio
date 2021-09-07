@@ -381,10 +381,19 @@ nav .logo h3{
     width: 90%;
   }
 
+  .fa-search {
+    color: #fff;
+  }
+
 
 .fas {
   padding: 10px;
   text-align: center;
+  color: #FFEA28;
+}
+
+.far {
+  color: #FFEA28;
 }
  
 
@@ -595,7 +604,7 @@ nav .logo h3{
   }
 
   .hero_pic img {
-    width: 80%;
+    width: 100%;
     display: block;
     margin: auto;
     text-align: center;
@@ -672,7 +681,8 @@ nav .logo h3{
 
 
   .columns-2 img{
-     width: 50%;
+     display: block;
+     margin: auto;
 
    }
 
