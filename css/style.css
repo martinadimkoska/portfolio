@@ -58,7 +58,7 @@ nav .mainMenu li a {
 }
 
 nav .mainMenu li a:hover{
-  color: #7D42E4;
+  color: #193DAD;
   font-family: 'Exo 2', sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -385,8 +385,8 @@ nav .logo h3{
 .fas {
   padding: 10px;
   text-align: center;
-  color: #FFEA28;
 }
+ 
 
 
 
