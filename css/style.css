@@ -174,12 +174,14 @@ nav .logo h5{
   padding: 0 30px;
   color: #343434;
   font-weight: 600;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .education h2 {
   text-align: left;
   font-weight: 600;
   font-size: 35px;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .column .columns-2 {
@@ -187,6 +189,7 @@ nav .logo h5{
   align-items: center;
   margin-top: 50px;
   text-align: center;
+  font-family: 'Exo 2', sans-serif;
   
 }
 
@@ -194,6 +197,7 @@ nav .logo h5{
   font-weight: 100;
   color: #343434;
   font-weight: 600;
+  font-family: 'Exo 2', sans-serif;
   
 }
 
@@ -202,6 +206,7 @@ nav .logo h5{
   font-style: italic;
   font-weight: 600;
   color: #343434;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .bg-dark{
@@ -214,15 +219,18 @@ nav .logo h5{
 .discovery {
   text-align: center;
   padding: 20px;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .research {
   text-align: center;
   padding: 20px;
+  font-family: 'Exo 2', sans-serif;
 }
 .design {
   text-align: center;
   padding: 20px;
+  font-family: 'Exo 2', sans-serif;
 }
 
 
@@ -233,6 +241,7 @@ nav .logo h5{
   font-size: 60px;
   color: #Fff;
   text-align:center;
+  font-family: 'Exo 2', sans-serif;
  
   
 }
@@ -242,6 +251,7 @@ nav .logo h5{
   color: #fff;
   text-align:center;
   margin: 10px;
+  font-family: 'Exo 2', sans-serif;
 
 }
 
@@ -306,6 +316,7 @@ nav .logo h5{
   font-size: 60px;
   color: #F05024;
   text-align:center;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .project {
@@ -317,6 +328,7 @@ nav .logo h5{
 .project h3 {
   font-size: 25px;
   font-weight: 600;
+  font-family: 'Exo 2', sans-serif;
   
 }
 
@@ -326,6 +338,8 @@ nav .logo h5{
   flex-direction: row;
   justify-content: left;
   align-items: center;
+  font-family: 'Exo 2', sans-serif;
+  
 }
 
 .call {
@@ -333,6 +347,7 @@ nav .logo h5{
   flex-direction: row;
   justify-content: left;
   align-items: center;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .fab {
@@ -353,22 +368,25 @@ nav .logo h5{
   list-style: none;
   margin:0;
   padding: 0;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .contact-icons ul{
   padding-left: 0;
   margin-top: 50px;
-  
+  font-family: 'Exo 2', sans-serif;
   }
    
   .call h4 {
       margin-left: 10px;
       color: #343434;
+      font-family: 'Exo 2', sans-serif;
   }
   
   .mail h4 {
       margin-left: 10px;
       color: #343434;
+      font-family: 'Exo 2', sans-serif;
   }
   
   .fa-phone {
@@ -382,7 +400,8 @@ nav .logo h5{
   .columns-1 h1 {
       font-size: 60px;
       font-weight: 900;
-      color: #F05024
+      color: #F05024;
+      font-family: 'Exo 2', sans-serif;
   }
 
   .contact-me img {
