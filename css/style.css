@@ -584,10 +584,10 @@ nav .logo h3{
     justify-content: center;
     align-items: center;
     text-align: left;
-    height: 80%;
     padding: 0 20px;
     font-family: 'Exo 2', sans-serif;
     font-weight: 900;
+    height: 85vh;
   }
 
   .hero_pic img {
