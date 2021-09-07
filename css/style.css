@@ -586,6 +586,7 @@ nav .logo h3{
     transition: top 1s ease;
     display: none;
     padding: 0;
+    color: #fff;
   }
 
   nav .mainMenu .closeMenu {
