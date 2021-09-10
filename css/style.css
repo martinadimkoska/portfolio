@@ -1051,6 +1051,13 @@ font-weight: 500;
 
   }
 
+  .user_flow h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #7D5B48;
+    margin-top: 50px;
+}
+
   .services h1 {
     padding: 20px;
     margin-top: 40px;
@@ -1071,6 +1078,13 @@ font-weight: 500;
   .personi {
     flex-direction: column;
   }
+
+  .user_persona h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #7D5B48;
+    margin-top: 50px;
+}
 
   .personi img {
     width: 95%;
