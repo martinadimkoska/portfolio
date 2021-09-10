@@ -918,7 +918,7 @@ font-weight: 500;
   }
   
   .content h1 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
   }
 
@@ -977,7 +977,7 @@ font-weight: 500;
 
 
   .about-me h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   
@@ -1053,7 +1053,7 @@ font-weight: 500;
 }
 
   .competetive_analysis h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
     color: #7D5B48;
     margin-top: 30px;
@@ -1075,7 +1075,7 @@ font-weight: 500;
   }
 
   .wireframes_desktop h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
     color: #7D5B48;
     margin-top: 50px;
@@ -1084,7 +1084,7 @@ font-weight: 500;
 
 
 .wireframes_mobile h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
     color: #7D5B48;
     margin-top: 50px;
@@ -1100,7 +1100,7 @@ font-weight: 500;
   }
 
   .style_guide h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
     color: #7D5B48;
     margin-top: 50px;
