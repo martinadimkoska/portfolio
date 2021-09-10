@@ -898,6 +898,15 @@ font-weight: 500;
     font-size: 1.6rem;
   }
 
+  .hero_txt h3{
+    color: #7D5B48;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: left;
+  
+  }
+
   .hero .content {
     display: flex;
     flex-direction: column;
