@@ -1030,7 +1030,7 @@ font-weight: 500;
   /* Gallery94 */
 
   .project_hero img {
-    width: 100%;
+    width: 90%;
   }
   .project_hero {
     display: flex;
@@ -1038,7 +1038,7 @@ font-weight: 500;
     justify-content: center;
     text-align: left;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 
   }
 
