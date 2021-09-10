@@ -16,7 +16,7 @@
 }
 
 html, body { 
-  background-color: #f5f5f5; 
+  background-color:#f5f5f5; 
   color: #343434;
   line-height: 1.6;  
   font-family: 'Exo 2', sans-serif;
@@ -103,12 +103,16 @@ nav .logo h5{
 
 .hero_pic img {
   width: 90%;
+  
 }
 .content {
   display: flex;
   justify-content: center;
   text-align: left;
   align-items: center;
+  height: 80vh;
+
+  
 }
 
 .hero_txt {
@@ -152,16 +156,16 @@ nav .logo h5{
 .about-me h1 {
   font-size: 60px;
   font-weight: 900;
-  color: #F05024; 
+  color: #343434; 
   margin-top: 50px;
  
 }
 
 .about-me h2 {
   margin-top: 35px;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 35px;
-  color: #F05024;
+  color: #343434;
 }
 
 .about-me ul {
@@ -185,11 +189,13 @@ nav .logo h5{
 }
 
 .column .columns-2 {
-  justify-content: center;
+  justify-content: center ;
   align-items: center;
   margin-top: 50px;
   text-align: center;
   font-family: 'Exo 2', sans-serif;
+  
+  
   
 }
 
@@ -212,7 +218,7 @@ nav .logo h5{
 .bg-dark{
   background-color: #343434;
   color: #f5f5f5;
-  clip-path: polygon(0 0, 100% 5%, 99% 100%, 0 95%);
+  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
 }
 
 /* Services */
@@ -236,7 +242,7 @@ nav .logo h5{
 
 .services h1 {
   padding: 20px;
-  margin-top: 30px;
+  margin-top: 40px;
   font-weight: 900;
   font-size: 60px;
   color: #Fff;
@@ -259,18 +265,21 @@ nav .logo h5{
 /* Projects */
 .box {
   cursor: pointer;
-  background-color: #343434;
-  border: #FFFFFF 1px solid;
+  background-color: #fff;
+  border: #fff 10px solid;
   border-radius: 10px;
   box-sizing: border-box;
   height: 250px;
   margin-top: 22px;
   font-size: 20px;
   position: relative;
-  z-index: 1;
-   
+  z-index: 1; 
+  transition: transform .2s;
+ 
 }
 
+
+/* 
 .box::after{
   content: "";
   position: absolute;
@@ -278,43 +287,53 @@ nav .logo h5{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #F64E20;
+  background-color: #343434;
+  opacity: 0.7;
   border-radius: 10px;
-  z-index: -1;
-  transition: transform 200ms ease-in;
+  z-index: 1;
+  transition: transform 500ms ease-in;
+  color: #343434;
 
 }
 
 .box::after{
   transform: scaleX(0);
   transform-origin: right;
+  
 }
 
 .box:hover::after {
   transform: scaleX(1);
   transform-origin: left;
+ 
   
+} */
+
+.box img {
+  width: 100%;
+  transition: transform .2s
 }
+
+.box img:hover {
+  transform: scale(1.1);
+}
+
 
 .box-no-active {
   border-radius: 10px;
   box-sizing: border-box;
   height: 250px;
   margin-top: 22px;
-  background-color: #343434;
-  border: #474545 1px solid;
+  background-color: #f5f5f5;
+  border: #fff 1px solid;
   color: #605E5E;
 }
 
-
-.section-padding {
-  padding: 50px;
-}
 .projects h1 {
-  margin-top: 60px;
+  margin-top: 50px;
   font-weight: 900;
   font-size: 60px;
-  color: #F05024;
+  color: #343434;
   text-align:center;
   font-family: 'Exo 2', sans-serif;
 }
@@ -322,13 +341,40 @@ nav .logo h5{
 .project {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
 
+.gallery94 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin: auto;
+}
+
+.project img  {
+  width: 70%;
+  
+}
+
 .project h3 {
-  font-size: 25px;
-  font-weight: 600;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 800;
   font-family: 'Exo 2', sans-serif;
+  color: #Fff;
+  text-align: center;
+  z-index: 1;
+}
+ 
+  .project p {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Exo 2', sans-serif;
+    color: #Fff;
+    text-align: center;
+    z-index: 1;
   
 }
 
@@ -351,16 +397,16 @@ nav .logo h5{
 }
 
 .fab {
-  color: #F64E20;
+  color: #343434;
   padding: 15px;
 }
 
 .red {
-  color: #F64E20;
+  color: #343434;
 }
 
 .fab:hover{
-  color: #7D42E4;
+  color: #F64E20;
   cursor: pointer;
 }
 
@@ -390,22 +436,22 @@ nav .logo h5{
   }
   
   .fa-phone {
-      color: #FFEA28;
+      color:#F64E20;
   }
   
   .fa-envelope {
-      color: #FFEA28;
+      color:#F64E20;
   }
   
   .columns-1 h1 {
       font-size: 60px;
       font-weight: 900;
-      color: #F05024;
+      color: #343434;
       font-family: 'Exo 2', sans-serif;
   }
 
   .contact-me img {
-    width: 90%;
+    width: 70%;
   }
 
   .fa-search {
@@ -416,20 +462,247 @@ nav .logo h5{
 .fas {
   padding: 10px;
   text-align: center;
-  color: #F64E20;
+  color: #343434;
 }
 
 .far {
-  color: #F64E20;
+  color: #343434;
 }
 
 
  
 
-/* Gallery94 */
 
 
 
+ 
+  /* Gallery94 */
+
+  html body {
+    background-color: #f5f5f5;
+    color: #343434;
+    line-height: 1.6;  
+    font-family: 'Exo 2', sans-serif;
+  }
+
+.hero_txt h3{
+  color: #7D5B48;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: left;
+
+}
+
+.hero_txt h3 span{
+color:#343434;
+font-weight: 500;
+}
+
+.project_hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    height: 100vh;
+  
+    
+  }
+
+  .project_hero img {
+    width: 60%;
+  }
+
+
+  .about_project h1 {
+    font-size: 60px;
+      font-weight: 900;
+     color: #7D5B48;
+      margin-top: 50px;
+    
+  }
+
+  .about_project h3 {
+    font-weight: 900
+  }
+
+  .bg-gallery{
+    background-color: #7D5B48;
+    color: #f5f5f5;
+    /* clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%); */
+  }
+
+
+  .competetive_analysis h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #7D5B48;
+    margin-top: 30px;
+    
+
+  }
+
+  .competetive_analysis p {
+    font-size: 16px;
+    font-weight: 600;
+    margin:50px 0;
+
+  
+  }
+
+  .competetive_analysis img{
+    display: block;
+    margin: auto;
+    height: inherit;
+    width: inherit;
+
+  }
+
+  
+.personi img {
+  width: 30%;
+}
+  .user_persona h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #7D5B48;
+    margin-top: 50px;
+    
+
+  }
+
+  .user_persona p {
+    font-size: 16px;
+    font-weight: 600;
+    margin:20px 0;
+
+  
+  }
+
+  .competetive_analysis img{
+    display: block;
+    margin: auto;
+    height: 10%;
+
+  }
+  
+  .personi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .personi img {
+    width: 50%;
+    margin-left: 20px;
+  }
+
+  .user_flow img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .user_flow h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #7D5B48;
+    margin-top: 50px;
+    
+
+  }
+
+  .user_flow p {
+    font-size: 16px;
+    font-weight: 600;
+    margin:20px 0;
+
+  
+  }
+
+  .wireframe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .wireframe img{
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  .wireframes_desktop h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #7D5B48;
+    margin-top: 50px;
+
+  }
+
+  .wireframes_mobile h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #7D5B48;
+    margin-top: 50px;
+    text-align: center;
+
+  }
+
+
+  .wireframe_mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .wireframe_mobile img {
+    width: 20%;
+    margin-top: 30px;
+  }
+
+
+
+  .style-guide img {
+    width: 15%;
+
+  }
+  .style_guide h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #7D5B48;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+  }
+
+  .style-guide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .ui_mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  } 
+
+  .ui_desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ui_desktop img {
+    margin-top: 50px;
+  }
+  
 
 
 
@@ -666,6 +939,7 @@ nav .logo h5{
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
+    margin: 0;
 }
 
 .flex-columns .column {
@@ -674,8 +948,11 @@ nav .logo h5{
   flex-basis: 100%;
   flex: auto!important;
 
-  
 }
+
+
+  
+  
 
   .row .column {
     flex-direction: column;
@@ -717,7 +994,9 @@ nav .logo h5{
      margin-bottom: 50px;
    }
 
-  
+   .columns-1 h1{
+     text-align: left;
+   }
 
 
   .contact-me {
@@ -748,5 +1027,52 @@ nav .logo h5{
   }
 
 
+  /* Gallery94 */
+
+  .project_hero img {
+    width: 100%;
+  }
+  .project_hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    height: 100vh;
+
+  }
+
+  .personi {
+    flex-direction: column;
+  }
+
+  .personi img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .wireframe {
+    flex-direction: column;
+  }
+
+  .wireframe img {
+    width: 100%;
+  }
+
+  .ui_mobile {
+    flex-direction: column;
+  }
+
+  .ui_mobile img {
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  .ui_desktop img{
+    width: 100%;
+  }
+
 }
+
+
 
