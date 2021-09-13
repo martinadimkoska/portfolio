@@ -216,7 +216,7 @@ nav .logo h5{
 }
 
 .bg-dark{
-  background-color: #343434;
+  background-color: #F64E20;
   color: #f5f5f5;
   clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
 }
@@ -345,12 +345,6 @@ nav .logo h5{
   align-items: center;
 }
 
-.gallery94 img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-margin: auto;
-}
 
 .project img  {
   width: 70%;
@@ -492,6 +486,14 @@ margin: auto;
   font-size: 30px;
   text-align: left;
 
+}
+
+
+.gallery94 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin: auto;
 }
 
 .hero_txt h3 span{
@@ -958,11 +960,14 @@ font-weight: 500;
   flex-direction: column!important;
   flex-basis: 100%;
   flex: auto!important;
-
+  justify-content: center;
+  align-items: start;
 }
 
 
-  
+  .projects h1{
+    font-size: 40px;
+  }
   
 
   .row .column {
@@ -1006,8 +1011,17 @@ font-weight: 500;
    }
 
    .columns-1 h1{
-     text-align: left;
+     text-align:left;
+     font-size: 40px;
    }
+
+   .columns-1 p {
+    font-weight: 500;
+    color: #343434;
+    font-weight: 500;
+    font-family: 'Exo 2', sans-serif;
+    text-align: left;
+}
 
 
   .contact-me {
@@ -1022,12 +1036,17 @@ font-weight: 500;
 
   }
 
-  
   .mail {
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    text-align: center;
-  }
+    text-align: left;
+}
+
+.call {
+  justify-content: start !important;
+  align-items: center;
+  text-align: left;
+}
 
 
 
