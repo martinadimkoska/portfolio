@@ -463,6 +463,17 @@ nav .logo h5{
   color: #343434;
 }
 
+/* Footer */
+
+.footer h5 {
+  color: #2c2c2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+
 
  
 
@@ -707,6 +718,12 @@ font-weight: 500;
     margin-top: 50px;
   }
   
+  .centar  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
 
 
 
