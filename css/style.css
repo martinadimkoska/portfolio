@@ -90,6 +90,11 @@ nav .logo h5{
   color: #FFEA28;
 }
 
+.logo img{
+  width: 50%;
+}
+
+
 
 /* Header */
 .hero {
@@ -444,6 +449,10 @@ nav .logo h5{
       font-family: 'Exo 2', sans-serif;
   }
 
+  .fa-envelope:hover{
+    color: #F64E20;
+
+  }
   .contact-me img {
     width: 70%;
   }
@@ -596,8 +605,9 @@ font-weight: 500;
 
   .competetive_analysis img{
     display: block;
-    margin: auto;
-    height: 10%;
+    width: 100%;
+    height: auto
+    
 
   }
   
