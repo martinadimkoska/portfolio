@@ -27,6 +27,10 @@
     color: #fff;
   }
 
+  .flex_reverse {
+    flex-direction: column-reverse;
+  }
+
 
   
   /* Flex columns */
