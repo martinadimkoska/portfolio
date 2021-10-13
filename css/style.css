@@ -188,10 +188,10 @@ nav .logo h5{
 
 .education h2 {
   text-align: left;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 35px;
   font-family: 'Exo 2', sans-serif;
-  margin-left: 70px;
+  
 }
 
 .column .columns-2 {
@@ -1091,7 +1091,7 @@ font-weight: 500;
   }
 
   .hero_txt h3{
-    color: #7D5B48;
+    color: #343434;
     font-family: 'Exo 2', sans-serif;
     font-weight: 800;
     font-size: 20px;
@@ -1108,7 +1108,7 @@ font-weight: 500;
     padding: 0 20px;
     font-family: 'Exo 2', sans-serif;
     font-weight: 900;
-    height: 85vh;
+    height: 80vh;
   }
 
   .hero_pic img {
@@ -1135,6 +1135,15 @@ font-weight: 500;
   .icons i {
     display: inline-block;
     padding: 12px;
+  }
+
+
+  .education h2 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Exo 2', sans-serif;
+    margin-left: 0px;
   }
 
   .flex-columns .row {
@@ -1250,6 +1259,13 @@ font-weight: 500;
   font-size: 16px;
 }
 
+.hero_txt h3 {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+
+
+}
 
 .gallery94_txt p{
   text-align: center;
@@ -1302,9 +1318,28 @@ font-weight: 500;
     justify-content: center;
     text-align: left;
     align-items: center;
-    height: 90vh;
+    height: 80vh;
 
   }
+
+  .hero_txt h5 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .hero_txt h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+
+  }
+
+  .hero_txt h1 span {
+    font-size: 40px;
+    font-weight: 800;
+    color: #F05024;
+    text-align: center;
+}
   .columns-1 h1 {
     text-align: left;
     font-size: 35px;
@@ -1313,7 +1348,7 @@ font-weight: 500;
   .user_flow h1 {
     font-size: 35px;
     font-weight: 900;
-    color: #7D5B48;
+    color: #343434;
     margin-top: 20px;
 }
 
@@ -1330,7 +1365,7 @@ font-weight: 500;
   .competetive_analysis h1 {
     font-size: 35px;
     font-weight: 900;
-    color: #7D5B48;
+    color: #343434;
     margin-top: 30px;
 }
 
@@ -1341,7 +1376,7 @@ font-weight: 500;
   .user_persona h1 {
     font-size: 35px;
     font-weight: 900;
-    color: #7D5B48;
+    color: #343434;
     margin-top: 50px;
 }
 
@@ -1359,7 +1394,7 @@ font-weight: 500;
   .wireframes_desktop h1 {
     font-size: 35px;
     font-weight: 900;
-    color: #7D5B48;
+    color: #343434;
     margin-top: 50px;
     padding: 20px 0;
 }
@@ -1369,7 +1404,7 @@ font-weight: 500;
 .wireframes_mobile h1 {
     font-size: 35px;
     font-weight: 900;
-    color: #7D5B48;
+    color: #343434;
     margin-top: 50px;
     text-align: center;
     padding: 20px 0;
@@ -1386,7 +1421,7 @@ font-weight: 500;
   .style_guide h1 {
     font-size: 35px;
     font-weight: 900;
-    color: #7D5B48;
+    color: #343434;
     margin-top: 50px;
     padding-bottom: 50px;
     text-align: center;
